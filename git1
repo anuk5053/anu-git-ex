@@ -1,6 +1,9 @@
 yum install git -y
 
 git clone 
+git config --global user.name "anusha"
+git config --global user.email "anuk5053@gmail.com"
 git add 
 git commit
-git push
+git push origin master
+git pull origin master
